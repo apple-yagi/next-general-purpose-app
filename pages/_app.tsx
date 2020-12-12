@@ -1,4 +1,3 @@
-
 import '../styles/globals.css'
 import type { AppProps /*, AppContext */ } from 'next/app'
 
