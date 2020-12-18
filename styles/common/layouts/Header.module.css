@@ -1,8 +1,10 @@
 .header {
   background-color: antiquewhite;
+  height: 50px;
 }
 
-.header-body {
-  max-width: 1024px;
-  margin: auto;
+@media screen and (max-width: 480px) {
+  .header {
+    height: 40px;
+  }
 }
